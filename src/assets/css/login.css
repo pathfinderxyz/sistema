@@ -1,0 +1,44 @@
+@media (max-width: 1400px){
+    .login-box {        
+        margin-left: -10% !important;
+        width: 120% !important;
+    }
+}
+
+@media (max-width: 991px){
+    .login-box {        
+        margin-left: -25% !important;
+        width: 150% !important;
+    }
+}
+
+@media (max-width: 767px){
+.login-box {    
+    margin-left: -25% !important;
+    width: 180% !important;
+}}
+
+@media (max-width: 575px){
+    .login-box {        
+        margin-left: -25% !important;
+        width: 100% !important;
+    }
+}
+
+.bodylogin {
+    background-image: linear-gradient(rgba(13, 30, 45, 0.7), rgba(13, 30, 45, 0.9)), url('./../fondos/fondoavantic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Cambia height a min-height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Añade padding para evitar que el contenido toque los bordes */
+}
+
+.login-box{
+    border-radius:10px !important;
+    background-color: #0d1e2d; /* Añade un fondo blanco con transparencia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Añade una sombra para mejor visibilidad */
+}

@@ -1,0 +1,221 @@
+* {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+ }
+ 
+ .a {
+   color: #fff !important;
+ }
+ 
+ .enlace {
+   color: #fff !important;
+ }
+ 
+ .enlacenav {
+   color: rgb(0, 0, 0) !important;
+ }
+ 
+ .container_side {
+   display: flex;
+   margin-top: -65px;
+ }
+ 
+ main {
+   width: 100%;
+   padding: 5px;
+   margin-top: 75px;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ 
+ .sidebar {
+   color: #fff;
+   height: 100vh;
+   width: 200px;
+   transition: all 0.5s;
+ }
+ 
+ .top_section {
+   display: flex;
+   align-items: center;
+   padding: 25px 15px;
+   background: #0d1e2d;
+   transition: 350ms;
+ }
+ 
+ .logo {
+   font-size: 30px;
+   width: 20px;
+   margin-top: -15px;
+ }
+ 
+ .logo img {
+   font-size: 30px;
+   width: 160px;
+   margin-top: 7px;
+ }
+ 
+ .top_section bars {
+   margin-top: 20px;
+ }
+ 
+ .bars {
+   display: flex;
+   font-size: 25px;
+   margin-top: -10px;
+   margin-left: 50px;
+   transition: 350ms;
+ }
+ 
+ .link {
+   display: flex;
+   color: #f0f0f1;
+   padding: 10px 15px;
+   gap: 15px;
+   transition: 350ms;
+ }
+ 
+ .link:hover {
+   background: lightskyblue;
+   color: #000;
+   transition: all 0.5s;
+ }
+ 
+ .active {
+   background: lightskyblue;
+   color: #000;
+ }
+ 
+ .icon,
+ .link_text {
+   font-size: 20px;
+ }
+ 
+ .acordion {
+   height: 200vh;
+   background: #f2f2f2;
+   z-index: 3;
+   margin-top: -25px;
+   padding-top: 20px;
+ }
+ 
+ .acordion .accordion-item {
+   background-color: #0d1e2d; /* Fondo negro para el acordeón */
+   color: #000; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+
+ }
+ 
+ .acordion .accordion-header {
+   background-color: #0d1e2d; /* Fondo negro para el encabezado del acordeón */
+   color: #000; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-body {
+   background-color: #d9d9d9; /* Fondo negro para el cuerpo del acordeón */
+   color: #000 !important; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-button {
+   background-color: #f2f2f2; /* Fondo negro para el botón del acordeón */
+   color: #717171; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-button:not(.collapsed) {
+   background-color: #f2f2f2; /* Fondo negro para el botón del acordeón cuando está expandido */
+   color: #000; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-button:focus {
+   box-shadow: none; /* Eliminar el borde de enfoque */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-button:hover {
+   background-color: #0d1e2d; /* Fondo negro para el botón del acordeón cuando está expandido */
+   color: #fff; /* Texto blanco */
+   border: none; /* Eliminar el borde */
+ }
+ 
+ .acordion .accordion-body a {
+   color: #717171; /* Texto blanco */
+   text-decoration: none;
+   padding-left: 12px;
+ }
+ 
+ .acordion .accordion-body a:hover {
+   color: #000; /* Color al pasar el ratón por encima */
+ }
+
+ .acordion .accordion-button::after {
+  display: none; /* Ocultar el ícono de flecha */
+}
+ 
+ .fico {
+   display: inline-flex;
+   font-size: 1.3rem;
+ }
+ 
+ .Nav1 {
+   background: linear-gradient(344deg, #0d1e2d, #0d1e2d);
+   height: 60px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ 
+ .nav-link {
+   color: #fff;
+   font-size: 15px;
+ }
+ 
+ .custom-btn {
+   background: none;
+   border: none;
+   padding: 0;
+   cursor: pointer;
+   color: inherit; /* Hereda el color del texto */
+ }
+ 
+ .custom-btn:hover {
+   color: #007bff; /* Cambia el color al pasar el ratón por encima */
+ }
+
+ .nav-text-black {
+  color: black !important;
+}
+
+.nav-text-white {
+  color: white !important;
+}
+
+
+.bars-icon {
+  color: white;
+  margin-top: -30%;
+  font-weight: 300;
+}
+
+.icon-spacing {
+  margin-right: 8px; /* Ajusta el valor según sea necesario */
+}
+
+.hide-on-mobile {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+.card-body {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a los bordes */
+  border-radius: 8px; /* Opcional: redondea las esquinas */
+}

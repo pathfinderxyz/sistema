@@ -1,0 +1,8 @@
+.PhoneInputInput {
+    flex: 1 1;
+    min-width: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border-color: #dee2e6;
+    border-width: 1px;
+  }

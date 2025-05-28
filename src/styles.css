@@ -1,0 +1,26 @@
+.custom-vimeo-player iframe {
+    pointer-events: none; /* Desactiva la interacción con los controles */
+  }
+  
+  .custom-vimeo-player iframe::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: url('path/to/play-button-icon.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: auto; /* Reactiva la interacción con el botón de reproducción */
+  }
+
+  .PhoneInputInput {
+    flex: 1 1;
+    min-width: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border-color: #dee2e6;
+    border-width: 1px;
+  }
+
