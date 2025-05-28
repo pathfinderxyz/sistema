@@ -1,10 +1,10 @@
-# Aplicacion Web Vefase 
+# Aplicacion Web 
 
 Instrucciones:
 
-### `git clone git@github.com:pathfinderxyz/vefase_react.git`
+### `git clone git@github.com:pathfinderxyz/sistema.git`
 
-/vefase_react
+/sistema
 
 ### `npm install`
 
